@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+        <title>Tic Tac Toe</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="sideBorders"></div>
+            <div class="content">
+                <h1>Tic Tac Toe</h1>
+                <div class="board">
+                    <table>
+                        <tr>
+                            <td onclick="move(this)" id="0"></td>
+                            <td onclick="move(this)" id="1"></td>
+                            <td onclick="move(this)" id="2"></td>
+                        </tr>
+                        <tr>
+                            <td onclick="move(this)" id="3"></td>
+                            <td onclick="move(this)" id="4"></td>
+                            <td onclick="move(this)" id="5"></td>
+                        </tr>
+                        <tr>
+                            <td onclick="move(this)" id="6"></td>
+                            <td onclick="move(this)" id="7"></td>
+                            <td onclick="move(this)" id="8"></td>
+                        </tr>
+                    </table>
+                </div>
+                <h2 id="guide">Player 1 turn</h2>
+            </div>
+            <div class="sideBorders"></div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
